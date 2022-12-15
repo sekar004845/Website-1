@@ -90,7 +90,9 @@ h3,h4{
 	margin:auto;
 	width:95%;
 }
-
+.section1{
+	padding:100px;
+}
 .column1{
 	font-size:2rem;
 	width:50%;
@@ -136,7 +138,8 @@ span{
 .service11{
 	font-size:30px;
 	height:80px;
-	width:200px;
+	width:80px;
+	padding:20px;
 	border:2px solid #85b0be;
 	border-radius:50%;
 	color:#85b0be;
@@ -148,16 +151,19 @@ span{
 	display:flex;
 	width:33.3%;
 	padding:60px;
+	gap:5%;
 }
 .service2{
 	display:flex;
 	width:33.3%;
 	padding:60px;
+	gap:5%;
 }
 .service23{
 	font-size:30px;
 	height:80px;
-	width:140px;
+	width:80px;
+	padding:20px;
 	border:2px solid #85b0be;
 	border-radius:50%;
 	color:#85b0be;
@@ -169,11 +175,13 @@ span{
 	display:flex;
 	width:33.3%;
 	padding:60px;
+	gap:5%;
 }
 .service31{
 	font-size:30px;
 	height:80px;
 	width:80px;
+	padding:20px;
 	border:2px solid #85b0be;
 	border-radius:50%;
 	color:#85b0be;
@@ -185,37 +193,55 @@ span{
 	display:flex;
 	width:33.3%;
 	padding:60px;
+	gap:5%;
 }
 .service41{
 	font-size:30px;
+	height:80px;
+	width:80px;
 	padding:20px;
 	border:2px solid #85b0be;
 	border-radius:50%;
 	color:#85b0be;
+	align-items:center;
+	justify-content:center;
+	display:flex;
 }
 .service5{
 	display:flex;
 	width:33.3%;
 	padding:60px;
+	gap:5%;
 }
 .service51{
 	font-size:30px;
+	height:80px;
+	width:80px;
 	padding:20px;
 	border:2px solid #85b0be;
 	border-radius:50%;
 	color:#85b0be;
+	align-items:center;
+	justify-content:center;
+	display:flex;
 }
 .service6{
 	display:flex;
 	width:33.3%;
 	padding:60px;
+	gap:5%;
 }
 .service61{
 	font-size:30px;
+	height:80px;
+	width:80px;
 	padding:20px;
 	border:2px solid #85b0be;
 	border-radius:50%;
 	color:#85b0be;
+	align-items:center;
+	justify-content:center;
+	display:flex;
 }
 .ser{
 	display:flex;
