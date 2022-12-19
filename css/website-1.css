@@ -26,6 +26,8 @@
 	display:flex;
 	justify-content:center;
 }
+
+
 .button{
 	margin-left:42%;
 }
@@ -41,6 +43,7 @@
 	width:100%;
 	background-color:#052c3fcc;
 	left:0;
+	z-index:1;
 }
 h1{
 	color:white;
@@ -97,6 +100,7 @@ h3,h4{
 	font-size:2rem;
 	width:50%;
 }
+
 h3{
 	font-size:40px;
 }
@@ -375,7 +379,7 @@ img{
 .section6{
 	margin-top:100px;
 	background-color:#f6f9fa;
-
+    z-index:-1;
 	
 }
 .column6{
@@ -916,6 +920,7 @@ del{
 	color:red;
 }
 .finish{
+	
 	color:#fff;
 	font-size:20px;
 	border-radius:2px;
@@ -929,4 +934,262 @@ del{
 	bottom:0;
 	position:fixed;
 	
+}
+@media(min-width:320px){
+	.container{
+		margin:auto;
+		width:100%;
+	}
+	.column101{
+		width:100%;
+	}
+	.row100{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.container1{
+		width:100%;
+	}
+	.row1{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.column1{
+		width:100%;
+	}
+	.container2{
+		margin:auto;
+		width:100%;
+	}
+	.service{
+		width:100%;
+	}
+	.service2{
+		width:100%;
+	}
+	.service3{
+		width:100%;
+	}
+	.service4{
+		width:100%;
+	}
+	.service5{
+		width:100%;
+	}
+	.service6{
+		width:100%;
+	}
+	.column2{
+		text-align:center;
+	}
+	.container3{
+		width:90%;
+	}
+	.row3{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.column3{
+		padding:10px;
+	}
+	.explore1 img{
+		max-width:100%;
+	}
+	.container5{
+		width:90%;
+	}
+	.img1{
+		width:100%
+	}
+    /*.container6{
+		width:90%
+	}
+	.teamimg1{
+		width:100%;
+	}
+	.teamimg2{
+		width:100%;
+	}
+	.teamimg3{
+		width:100%;
+	}
+	.teamimg4{
+		width:100%;
+	}
+	.teamimage{
+		width:100%;
+	}*/
+}
+@media(min-width:690px){
+	.container{
+		margin:auto;
+		width:100%;
+	}
+	.column101{
+		width:100%;
+	}
+	.row100{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.container1{
+		width:100%
+	}
+	.row1{
+		display:flex;
+		flex-wrap:wrap;
+	}
+    .column1{
+		width:50%;
+	}
+	.container2{
+		width:100%;
+	}
+	.column2{
+		text-align:center;
+	}
+	.service{
+		width:50%;
+	}
+	.service2{
+		width:50%;
+	}
+	.service3{
+		width:50%;
+	}
+	.service4{
+		width:50%;
+	}
+	.service5{
+		width:50%;
+	}
+	.service6{
+		width:50%;
+	}
+	.container3{
+		width:90%;
+	}
+	.row3{
+		display:flex;
+		flex-direction:column;
+	}
+	.column3{
+		padding:20px;
+	}
+	.explore1 img{
+		max-width:100%;
+	}
+	.container5{
+		width:90%;
+	}
+	.img1{
+		width:50%;
+	}
+	.container6{
+		width:90%;
+	}
+	.row6{
+	}
+	.teamimage{
+		display:flex;
+		flex-direction:column;
+	}
+}
+@media(min-width:1020px){
+	.container1{
+		margin:auto;
+		width:100%;
+	}
+	.column101{
+		width:100%;
+	}
+	.row100{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.container1{
+		width:95%
+	}
+	.row1{
+		display:flex;
+	}
+	.column1{
+		width:50%;
+	}
+	.container2{
+		width:100%;
+	}
+	.column2{
+		text-align:center;
+	}
+	.service{
+		display:flex;
+		flex-wrap:wrap;
+		width:33.3%;
+	}
+	.service2{
+		display:flex;
+		flex-wrap:wrap;
+		width:33.3%;
+	}
+	.service3{
+		display:flex;
+		flex-wrap:wrap;
+		width:33.3%;
+	}
+	.service4{
+		display:flex;
+		flex-wrap:wrap;
+		width:33.3%;
+	}
+	.service5{
+		display:flex;
+		flex-wrap:wrap;
+		width:33.3%;
+	}
+	.service6{
+        display:flex;
+		flex-wrap:wrap;
+		width:33.3%;
+	}
+	.container3{
+		width:90%;
+	}
+	.row3{
+		display:flex;
+		flex-direction:row;
+	}
+	.column3{
+		padding:20px;
+	    width:33.3%;
+	}
+	.column31{
+		padding:20px;
+		width:33.3%;
+	}
+	.column32{
+		padding:20px;
+		width:33.3%;
+	}
+	.explore1 img{
+		max-width:100%;
+	}
+	.ser{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.container5{
+		width:85%;
+	}
+	.img1{
+		width:33.3%;
+	}
+	.container6{
+		width:85%;
+	}
+	.row6{
+	}
+	.teamimage{
+		display:flex;
+	}
 }
