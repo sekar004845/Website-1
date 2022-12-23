@@ -554,7 +554,7 @@ del{
     width:100px;
 	background-color:#85b0be;
 	border-radius:5px;
-	margin-left:80px;
+	margin:auto;
 	
 }
 .pricing3{
@@ -588,7 +588,7 @@ del{
     width:100px;
 	background-color:#85b0be;
 	border-radius:5px;
-	margin-left:80px;
+	margin:auto;
 	}
 .pricing4{
 	text-align:center;
@@ -618,7 +618,7 @@ del{
     width:100px;
 	background-color:#85b0be;
 	border-radius:5px;
-	margin-left:80px;
+	margin:auto;
 	}
 .pricingflex{
 	display:flex;
