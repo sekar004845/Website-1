@@ -8,9 +8,10 @@
 	width:100%;
 }
 .section{
-	display:none;
 	background:url("image/hero-bg.jpg");
-    padding:50px;
+        padding:70px;
+	background-size:cover;
+	background-attachment:fixed;
 }
 .heading1 .button{
 	text-align:center;
