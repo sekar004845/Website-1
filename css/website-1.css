@@ -9,7 +9,7 @@
 }
 .section{
 	background:url("image/hero-bg.jpg");
-        padding:70px;
+    padding:70px;
 	background-size:cover;
 	background-attachment:fixed;
 }
@@ -292,7 +292,6 @@ img{
 	border:2px solid #85b0be;
 	padding:10px;
 	color: #85b0be;
-	width:200px;
 }
 .explore12:hover{
 	color:white;
@@ -309,7 +308,6 @@ img{
 	border:2px solid #85b0be;
 	padding:10px;
 	color: #85b0be;
-	width:200px;
 }
 .explore22:hover{
 	color:white;
@@ -321,7 +319,6 @@ img{
 	padding:10px;
 }
 .explore32{
-	width:200px;
 	font-size:20px;
 	border:2px solid #85b0be;
 	padding:10px;
@@ -989,12 +986,21 @@ del{
 		display:flex;
 		flex-wrap:wrap;
 	}
+	.section{
+		padding:20px;
+	}
+	.section1{
+		padding:20px 20px;
+	}
 	.container1{
 		width:100%;
 	}
 	.row1{
 		display:flex;
 		flex-wrap:wrap;
+	}
+	.col1{
+		width:100%;
 	}
 	.column1{
 		width:100%;
@@ -1005,21 +1011,27 @@ del{
 	}
 	.service{
 		width:100%;
+		padding:35px;
 	}
 	.service2{
 		width:100%;
+		padding:35px;
 	}
 	.service3{
 		width:100%;
+		padding:35px;
 	}
 	.service4{
 		width:100%;
+		padding:35px;
 	}
 	.service5{
 		width:100%;
+		padding:35px;
 	}
 	.service6{
 		width:100%;
+		padding:35px;
 	}
 	.column2{
 		text-align:center;
@@ -1182,12 +1194,21 @@ del{
 		display:flex;
 		flex-wrap:wrap;
 	}
+	.section{
+		padding:50px;
+	}
+	.section1{
+		padding:100px;
+	}
 	.container1{
 		width:100%
 	}
 	.row1{
 		display:flex;
 		flex-wrap:wrap;
+	}
+	.col1{
+		width:50%;
 	}
     .column1{
 		width:50%;
@@ -1373,11 +1394,20 @@ del{
 		display:flex;
 		flex-wrap:wrap;
 	}
+	.section{
+		padding:70px;
+	}
+	.section1{
+		padding:100px;
+	}
 	.container1{
 		width:95%
 	}
 	.row1{
 		display:flex;
+	}
+	.col1{
+		width:50%;
 	}
 	.column1{
 		width:50%;
