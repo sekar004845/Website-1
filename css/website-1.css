@@ -18,8 +18,11 @@
 }
 .row{
 	display:flex;
-	background-color:#000;
-	
+	background-color:#000;	
+}
+.nav-icon{
+	color:#fff;
+	text-align:center;
 }
 .column101{
 	width:70%;
@@ -986,6 +989,12 @@ del{
 		display:flex;
 		flex-wrap:wrap;
 	}
+	.nav-icon{
+		display:block;
+	}
+	.row{
+		display:none;
+	}
 	.section{
 		padding:20px;
 	}
@@ -1197,6 +1206,12 @@ del{
 	.section{
 		padding:50px;
 	}
+	.nav-icon{
+		display:none;
+	}
+	.row{
+		display:flex;
+	}
 	.section1{
 		padding:100px;
 	}
@@ -1396,6 +1411,12 @@ del{
 	}
 	.section{
 		padding:70px;
+	}
+	.row{
+		display:flex;
+	}
+	.nav-icon{
+		display:none;
 	}
 	.section1{
 		padding:100px;
