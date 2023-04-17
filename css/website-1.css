@@ -1008,6 +1008,9 @@ del{
 		display:flex;
 		flex-wrap:wrap;
 	}
+	.button{
+	    margin-left:28%;
+    }
 	.col1{
 		width:100%;
 	}
@@ -1222,6 +1225,9 @@ del{
 		display:flex;
 		flex-wrap:wrap;
 	}
+	.button{
+	   margin-left:42%;
+    }
 	.col1{
 		width:50%;
 	}
@@ -1427,6 +1433,9 @@ del{
 	.row1{
 		display:flex;
 	}
+	.button{
+	   margin-left:42%;
+    }
 	.col1{
 		width:50%;
 	}
