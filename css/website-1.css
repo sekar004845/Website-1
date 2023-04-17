@@ -1064,7 +1064,9 @@ del{
 	.container4{
 		width:100%;
 	}
-	
+	.row4 img {
+       max-width: 30%;
+    }
 	.container5{
 		width:90%;
 	}
@@ -1274,6 +1276,9 @@ del{
 	.container4{
 		width:100%;
 	}
+	.row4 img {
+       max-width: 12%;
+    }
 	.container5{
 		width:90%;
 	}
@@ -1501,6 +1506,9 @@ del{
 	.container4{
 		width:100%;
 	}
+	.row4 img {
+       max-width: 10%;
+    }
 	.container5{
 		width:85%;
 	}
